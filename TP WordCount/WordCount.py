@@ -1,9 +1,3 @@
-"""
-Programme de comptage de mots séquentiel
-Auteur : [Ton Nom]
-Date : [Date]
-"""
-
 import re
 import sys
 import time
