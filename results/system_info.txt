@@ -1,0 +1,11 @@
+INFORMATIONS SYSTÈME
+========================================
+
+Date: 2025-12-01 16:21:01
+Système: Windows
+Version: 10.0.26200
+Processeur: Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+CPU Cores (physiques): 12
+CPU Cores (logiques): 16
+RAM totale (Go): 15.61
+Python version: 3.13.3

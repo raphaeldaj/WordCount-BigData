@@ -1,0 +1,58 @@
+
+ANALYSE DES RÉSULTATS - Word Count Séquentiel
+=============================================
+
+1. RÉSUMÉ DES MESURES
+---------------------
+   corpus_1MB.txt (1.0 MB):
+      Temps moyen: 0.047 s
+      Min: 0.036 s | Max: 0.076 s
+      Écart-type: 0.017 s
+      
+   corpus_5MB.txt (5.0 MB):
+      Temps moyen: 0.040 s
+      Min: 0.036 s | Max: 0.046 s
+      Écart-type: 0.004 s
+      
+   corpus_10MB.txt (10.0 MB):
+      Temps moyen: 0.043 s
+      Min: 0.035 s | Max: 0.056 s
+      Écart-type: 0.008 s
+      
+   corpus_20MB.txt (20.0 MB):
+      Temps moyen: 0.038 s
+      Min: 0.033 s | Max: 0.051 s
+      Écart-type: 0.008 s
+      
+   corpus_50MB.txt (50.0 MB):
+      Temps moyen: 0.040 s
+      Min: 0.036 s | Max: 0.042 s
+      Écart-type: 0.003 s
+      
+2. ANALYSE DE COMPLEXITÉ
+------------------------
+   - Pente de la régression linéaire: -0.000107 s/MB
+   - Coefficient de détermination (R²): 0.3074
+   - Pente log-log (exposant de complexité): -0.049
+   
+   Interprétation:
+   * R² proche de 1 (0.307) → Relation linéaire forte
+   * Exposant ~1 (-0.049) → Complexité linéaire O(n)
+   
+3. EFFICACITÉ ET SCALABILITÉ
+-----------------------------
+   Temps par MB (constance):
+      - 1.0MB: 0.0475 s/MB
+   - 5.0MB: 0.0081 s/MB
+   - 10.0MB: 0.0043 s/MB
+   - 20.0MB: 0.0019 s/MB
+   - 50.0MB: 0.0008 s/MB
+
+   Coefficient de variation: 141.03%
+   → Variation importante
+   
+4. CONCLUSION
+-------------
+   Le programme montre une complexité temporelle linéaire O(n) par rapport
+   à la taille des données.
+   

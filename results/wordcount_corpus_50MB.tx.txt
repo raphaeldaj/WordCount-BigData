@@ -1,0 +1,7 @@
+Fichier analysé: data/corpus_50MB.tx
+Temps d'exécution: 0.0000 secondes
+Nombre total de mots: 0
+Nombre de mots uniques: 0
+
+Top 20 mots les plus fréquents:
+----------------------------------------
